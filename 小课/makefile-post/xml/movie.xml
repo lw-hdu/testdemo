@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adi:ADI2 xmlns="http://www.cablelabs.com/VODSchema/default" xmlns:adi="http://www.cablelabs.com/VODSchema/adi" xmlns:vod="http://www.cablelabs.com/VODSchema/vod">
+    <adi:OpenGroupAsset type="VODRelease" product="adipanel">
+        <vod:VODRelease providerID="adipanel" providerType="2" assetID="adipanel${__time(yyyyMMddHHmmss)}" updateNum="" groupAsset="Y" serialNo="${__time(yyyyMMddHHmmss)}">
+            <adi:AssetLifetime startDateTime="2015-10-01" endDateTime="2059-11-28" />
+        </vod:VODRelease>
+    </adi:OpenGroupAsset>
+    <adi:AddMetadataAsset groupProviderID="adipanel" groupAssetID="adipanel${__time(yyyyMMddHHmmss)}" type="Title" product="adipanel">
+        <vod:Title providerID="adipanel" assetID="adipanel${__time(yyyyMMddHHmmss)}" updateNum="1">
+            <adi:AssetLifetime startDateTime="2015-10-01" endDateTime="2059-11-28" />
+            <vod:IsAdvertise>0</vod:IsAdvertise>
+            <vod:TitleFull>HD_${__time(yyyyMMddHHmmss)}电影</vod:TitleFull>	<vod:ImageUrl>ftp://ADIPANEL:ADIPANEL@10.27.247.70/cacheFolder/${__time(yyyyMMddHHmmss)}.jpg</vod:ImageUrl>
+            <vod:SourceType></vod:SourceType>
+            <vod:ShowType>Movie</vod:ShowType>
+           <vod:ProgramType>1</vod:ProgramType>
+           <vod:Tag>tagmovie</vod:Tag>
+            <vod:Status>1</vod:Status>
+            <vod:SummaryMedium>${__time(yyyyMMddHHmmss)}电影</vod:SummaryMedium>
+            <vod:SummaryShort></vod:SummaryShort>
+        </vod:Title>
+    </adi:AddMetadataAsset>
+    <adi:AddMetadataAsset groupProviderID="adipanel" groupAssetID="adipanel${__time(yyyyMMddHHmmss)}" type="CategoryPath" product="adipanel">
+        <vod:CategoryPath providerID="adipanel" assetID="adipanel${__time(yyyyMMddHHmmss)}" updateNum="1">
+            <adi:AssetLifetime startDateTime="2015-10-01" endDateTime="2019-11-28" />
+            <vod:Category>文艺片</vod:Category>
+            <vod:Classification>电影</vod:Classification>
+        </vod:CategoryPath>
+    </adi:AddMetadataAsset>
+    <adi:AddMetadataAsset groupProviderID="adipanel" groupAssetID="adipanel${__time(yyyyMMddHHmmss)}" type="Copyright" product="adipanel">
+        <vod:Copyright providerID="adipanel" assetID="adipanel${__time(yyyyMMddHHmmss)}" updateNum="1">
+            <adi:AssetLifetime startDateTime="2015-10-01" endDateTime="2059-11-28" />
+        </vod:Copyright>
+    </adi:AddMetadataAsset>
+    <adi:AcceptContentAsset type="Video" metadataOnly="N" fileName="${__time(yyyyMMddHHmmss)}.ts" fileSize="75250196" mD5CheckSum="2bf24533c494c6a3387573560fdcdbea">
+        <vod:Video providerID="adipanel" assetID="adipanelMOVI${__time(yyyyMMddHHmmss)}" updateNum="1" fileName="${__time(yyyyMMddHHmmss)}.ts" fileSize="12000" mD5CheckSum="2bf24533c494c6a3387573560fdcdbea" transferContentURL="ftp://ADIPANEL:ADIPANEL@10.27.247.70/cacheFolder/201907/26/337455/${__time(yyyyMMddHHmmss)}.ts" encodingProfile="" encodingCode="">
+            <adi:AssetLifetime startDateTime="2015-10-01" endDateTime="2059-11-28" />
+            <vod:HDFlag>0</vod:HDFlag>
+            <vod:FrameHeight>1080</vod:FrameHeight>
+            <vod:FrameWidth>1920</vod:FrameWidth>
+            <vod:Bitrate>7600</vod:Bitrate>
+            <vod:FrameRate>25</vod:FrameRate>
+            <vod:MimeType>99</vod:MimeType>
+            <vod:ServiceType>11</vod:ServiceType>
+            <vod:NeedDRM>1</vod:NeedDRM>
+            <vod:Usage>1</vod:Usage>
+            <vod:IsDRM>1</vod:IsDRM>
+            <vod:Duration>152</vod:Duration>
+            <vod:FileType>1</vod:FileType>
+        </vod:Video>
+    </adi:AcceptContentAsset>
+    <adi:AssociateContent type="Video" effectiveDate="" groupProviderID="adipanel" groupAssetID="adipanel${__time(yyyyMMddHHmmss)}" providerID="adipanel" assetID="adipanelMOVI${__time(yyyyMMddHHmmss)}" />
+</adi:ADI2>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<adi:ADI2 xmlns:adi="http://www.cablelabs.com/VODSchema/adi" xmlns="http://www.cablelabs.com/VODSchema/default" xmlns:vod="http://www.cablelabs.com/VODSchema/vod">  
+  <adi:OpenGroupAsset xmlns="" type="VODRelease" product="VOD"> 
+    <vod:VODRelease providerID="10001010" providerType="2" assetID="0928vodspmovie" updateNum="" groupAsset="Y" serialNo="20161012104230915"> 
+      <adi:AssetLifetime startDateTime="2016-01-05" endDateTime="2036-01-05"/> 
+    </vod:VODRelease> 
+  </adi:OpenGroupAsset>  
+  <adi:AddMetadataAsset xmlns="" groupProviderID="10001010" groupAssetID="0928vodspmovie" type="Title" product="VOD"> 
+    <vod:Title providerID="10001010" assetID="0928vodspmovie" updateNum="1"> 
+      <adi:AssetLifetime startDateTime="2016-01-05" endDateTime="2036-01-05"/>  
+      <vod:Keyword/>  
+      <vod:IsAdvertise>0</vod:IsAdvertise>  
+      <vod:PlayTime/>  
+      <vod:Emcee> 
+        <vod:LastNameFirst/> 
+      </vod:Emcee>  
+      <vod:StudioName/>  
+      <vod:MetaLanguage/>  
+      <vod:ExternalURL/>  
+      <vod:Actor type="Actor"> 
+        <vod:LastNameFirst>2</vod:LastNameFirst> 
+      </vod:Actor>  
+      <vod:RunTime/>  
+      <vod:SearchName/>  
+      <vod:EnglishName/>  
+      <vod:ExternalNo/>  
+      <vod:Producer> 
+        <vod:LastNameFirst/> 
+      </vod:Producer>  
+      <vod:Awards/>  
+      <vod:MediaFormat/>  
+      <vod:Director> 
+        <vod:LastNameFirst>成龙</vod:LastNameFirst> 
+      </vod:Director>  
+      <vod:CountryOfOrigin>0</vod:CountryOfOrigin>  
+      <vod:Items>0</vod:Items>  
+      <vod:SourceInfo/>  
+      <vod:Comments/>  
+      <vod:TitleFull>vodsp采集电影0928</vod:TitleFull>  
+      <vod:SourceType/>  
+      <vod:Agent/>  
+      <vod:TitleBrief/>  
+      <vod:ShowType>Movie</vod:ShowType>  
+      <vod:Character/>  
+      <vod:Priority>10</vod:Priority>  
+      <vod:Status>1</vod:Status>  
+      <vod:Guest> 
+        <vod:LastNameFirst/> 
+      </vod:Guest>  
+      <vod:Theme/>  
+      <vod:SummaryMedium>RM</vod:SummaryMedium>  
+      <vod:SummaryShort>RM</vod:SummaryShort>  
+      <vod:Language/>  
+      <vod:Superviser/>  
+      <vod:EnglishDesc/>  
+      <vod:Extend> 
+        <vod:JointMode>1</vod:JointMode> 
+      </vod:Extend> 
+    </vod:Title> 
+  </adi:AddMetadataAsset>  
+  <adi:AddMetadataAsset xmlns="" groupProviderID="10001010" groupAssetID="0928vodspmovie" type="CategoryPath" product="VOD"> 
+    <vod:CategoryPath providerID="10001010" assetID="0928vodspmovie" updateNum="1"> 
+      <adi:AssetLifetime startDateTime="2016-01-05" endDateTime="2036-01-05"/>  
+      <vod:Category>其它</vod:Category>  
+      <vod:Classification>栏目</vod:Classification> 
+    </vod:CategoryPath> 
+  </adi:AddMetadataAsset>  
+  <adi:AddMetadataAsset xmlns="" groupProviderID="10001010" groupAssetID="0928vodspmovie" type="Copyright" product="VOD"> 
+    <vod:Copyright providerID="10001010" assetID="0928vodspmovie" updateNum="1"> 
+      <adi:AssetLifetime startDateTime="2016-01-05" endDateTime="2036-01-05"/>  
+      <vod:LicenseType>0</vod:LicenseType>  
+      <vod:TransferAgain/>  
+      <vod:CopyType>1</vod:CopyType>  
+      <vod:OriginalLicenseCompany/>  
+      <vod:Transfer3rd/>  
+      <vod:CopyName/>  
+      <vod:PublishNo/>  
+      <vod:AuthorserilNo/>  
+      <vod:VideoLicense/>  
+      <vod:CopyIdea/>  
+      <vod:CountryNo/>  
+      <vod:PublicationDate/>  
+      <vod:CopyLicense/>  
+      <vod:CopySerilNo/>  
+      <vod:CopyLicenser/>  
+      <vod:TransferLicenseCompany/> 
+    </vod:Copyright> 
+  </adi:AddMetadataAsset>  
+  <adi:AcceptContentAsset xmlns="" type="Video" metadataOnly="N" fileName="vodsp采集电影00926-1" fileSize="17012684" mD5CheckSum=""> 
+    <vod:Video providerID="10001010" assetID="0928vodspmovie-1" updateNum="1" fileName="mtzb01.ts" fileSize="17012684" mD5CheckSum="" transferContentURL="ftp://adi2:adi2@10.43.240.170:21/test1/test/123.ts" encodingProfile="" encodingCode=""> 
+      <adi:AssetLifetime startDateTime="2016-01-05" endDateTime="2036-01-05"/>  
+      <vod:AspectRatio/>  
+      <vod:HDFlag>1</vod:HDFlag>  
+      <vod:Brightness/>  
+      <vod:FrameHeight>576</vod:FrameHeight>  
+      <vod:MimeType>46</vod:MimeType>  
+      <vod:IsEdit>1</vod:IsEdit>  
+      <vod:ServiceType></vod:ServiceType>  
+      <vod:NeedDRM>1</vod:NeedDRM>  
+      <vod:Usage>1</vod:Usage>  
+      <vod:FrameWidth>720</vod:FrameWidth>  
+      <vod:VideoCodec/>  
+      <vod:Numberofframes>0</vod:Numberofframes>  
+      <vod:AudioCodec/>  
+      <vod:IsDRM>1</vod:IsDRM>  
+      <vod:Duration>180</vod:Duration>  
+      <vod:FileType>1</vod:FileType>  
+      <vod:Contrast/>  
+      <vod:Bitrate>1600</vod:Bitrate>  
+      <vod:FrameRate>25</vod:FrameRate> 
+    </vod:Video> 
+  </adi:AcceptContentAsset>  
+  <adi:AssociateContent type="Video" effectiveDate="" groupProviderID="10001010" groupAssetID="0928vodspmovie" providerID="10001010" assetID="0928vodspmovie-1"/> 
+</adi:ADI2>

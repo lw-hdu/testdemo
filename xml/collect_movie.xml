@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adi:ADI2 xmlns="http://www.cablelabs.com/VODSchema/default" xmlns:adi="http://www.cablelabs.com/VODSchema/adi"
+                                                 xmlns:vod="http://www.cablelabs.com/VODSchema/vod">
+
+        <adi:OpenGroupAsset type="VODRelease" product="VOD">
+                <vod:VODRelease providerID="sihua" providerType="2" assetID="ceshiottmovie" updateNum="" groupAsset="Y" serialNo="2015040817070011">
+                        <adi:AssetLifetime startDateTime="2015-04-08 00:00:00" endDateTime="2065-04-08 00:00:00"/>
+                </vod:VODRelease>
+        </adi:OpenGroupAsset>
+        <adi:AddMetadataAsset groupProviderID="sihua" groupAssetID="ceshiottmovie" type="Title" product="VOD">
+                <vod:Title providerID="sihua" assetID="ceshiottmovie" updateNum="1">
+                        <adi:AssetLifetime startDateTime="2015-04-08 00:00:00" endDateTime="2065-04-08 00:00:00"/>
+                        <vod:TitleFull><![CDATA[ottsp注入思华cdn]]></vod:TitleFull>
+                        <vod:ShowType>Movie</vod:ShowType>
+                        <vod:SummaryMedium><![CDATA[]]></vod:SummaryMedium>
+                        <vod:SummaryShort><![CDATA[]]></vod:SummaryShort>
+                        <vod:RunTime><![CDATA[]]></vod:RunTime>
+                        <vod:CountryOfOrigin><![CDATA[1]]></vod:CountryOfOrigin>
+                        <vod:Actor type="Actor"> 
+                                <vod:LastNameFirst><![CDATA[]]></vod:LastNameFirst> 
+                        </vod:Actor> 
+                        <vod:Actor type="Actress"> 
+                                <vod:LastNameFirst><![CDATA[]]></vod:LastNameFirst> 
+                        </vod:Actor> 
+                        <vod:Actor type="CoActor"> 
+                                <vod:LastNameFirst><![CDATA[]]></vod:LastNameFirst> 
+                        </vod:Actor> 
+                        <vod:Actor type="CoActress"> 
+                                <vod:LastNameFirst><![CDATA[]]></vod:LastNameFirst> 
+                        </vod:Actor> 
+                        <vod:Director> 
+                                <vod:LastNameFirst><![CDATA[]]></vod:LastNameFirst> 
+                        </vod:Director> 
+                        <vod:StudioName><![CDATA[]]></vod:StudioName>
+                        <vod:Rating><![CDATA[]]></vod:Rating>
+                        <vod:Agent><![CDATA[]]></vod:Agent>
+                        <vod:Language><![CDATA[国语]]></vod:Language>
+                        <vod:MediaFormat><![CDATA[]]></vod:MediaFormat>
+                        <vod:IptvDesc><![CDATA[]]></vod:IptvDesc>
+                        <vod:Format><![CDATA[黑白]]></vod:Format>
+                        <vod:Superviser><![CDATA[]]></vod:Superviser>
+                        <vod:Background><![CDATA[]]></vod:Background>
+                        <vod:EnglishDesc><![CDATA[]]></vod:EnglishDesc>
+                        <vod:Keyword><![CDATA[]]></vod:Keyword>
+                        <vod:StarLevel><![CDATA[6]]></vod:StarLevel>
+                        <vod:Awards><![CDATA[]]></vod:Awards>
+                        <vod:Year><![CDATA[]]></vod:Year>
+                        <vod:Comments><![CDATA[]]></vod:Comments>
+                        <vod:IsAdvertise>0</vod:IsAdvertise>
+                </vod:Title>
+        </adi:AddMetadataAsset>
+        <adi:AddMetadataAsset groupProviderID="sihua" groupAssetID="ceshiottmovie" type="CategoryPath" product="VOD">
+                <vod:CategoryPath providerID="sihua" assetID="ceshiottmovie" updateNum="1">
+                        <adi:AssetLifetime startDateTime="2015-04-08 00:00:00" endDateTime="2065-04-08 00:00:00"/>
+                    <vod:Classification><![CDATA[电影]]></vod:Classification>
+                        <vod:Category><![CDATA[喜剧片]]></vod:Category>
+                </vod:CategoryPath>
+        </adi:AddMetadataAsset>
+        <adi:AddMetadataAsset groupProviderID="sihua" groupAssetID="ceshiottmovie" type="Copyright" product="VOD">
+                <vod:Copyright providerID="sihua" assetID="ceshiottmovie" updateNum="1">
+                        <adi:AssetLifetime startDateTime="2015-04-08 00:00:00" endDateTime="2065-04-08 00:00:00"/>
+                        <vod:LicenseType><![CDATA[0]]></vod:LicenseType>
+                        <vod:OriginalLicenseCompany><![CDATA[]]></vod:OriginalLicenseCompany>
+                        <vod:TransferLicenseCompany><![CDATA[]]></vod:TransferLicenseCompany>
+                        <vod:Transfer3rd><![CDATA[0]]></vod:Transfer3rd>
+                        <vod:TransferAgain><![CDATA[0]]></vod:TransferAgain>
+                        <vod:CountryNo><![CDATA[]]></vod:CountryNo>
+                        <vod:PublicationDate><![CDATA[]]></vod:PublicationDate>
+                        <vod:CopyName><![CDATA[]]></vod:CopyName>
+                        <vod:VideoLicense><![CDATA[]]></vod:VideoLicense>
+                        <vod:PublishNo><![CDATA[]]></vod:PublishNo>
+                        <vod:AuthorserilNo><![CDATA[]]></vod:AuthorserilNo>
+                        <vod:CopyIdea><![CDATA[]]></vod:CopyIdea>
+                        <vod:CopyType><![CDATA[1]]></vod:CopyType>
+                        <vod:CopyLicenser><![CDATA[]]></vod:CopyLicenser>
+                        <vod:CopyLicense><![CDATA[]]></vod:CopyLicense>
+                        <vod:CopySerilNo><![CDATA[]]></vod:CopySerilNo>
+                </vod:Copyright>
+        </adi:AddMetadataAsset>
+        <adi:AcceptContentAsset type="Video" metadataOnly="N" fileName="otts注入sihuacdn" fileSize="159327400" mD5CheckSum="">
+                <vod:Video providerID="sihua" assetID="ceshiottmovie_1" updateNum="1" fileName="chaoti.ts" 
+                                fileSize="159327400" mD5CheckSum="" transferContentURL="ftp://caiji:caiji@10.43.240.44/collect/test/chaoti.ts" 
+                                encodingProfile="" videoCodec="" audioCodec="mpeg1layer2">
+                        <adi:AssetLifetime startDateTime="2015-04-08 00:00:00" endDateTime="2065-04-08 00:00:00"/>
+                        <vod:Duration><![CDATA[9598]]></vod:Duration>
+                        <vod:Bitrate><![CDATA[30000]]></vod:Bitrate>
+                        <vod:Numberofframes><![CDATA[2]]></vod:Numberofframes>
+                        <vod:FrameHeight><![CDATA[576]]></vod:FrameHeight>
+                        <vod:FrameWidth><![CDATA[720]]></vod:FrameWidth>
+                        <vod:AsihuaectRatio><![CDATA[4:3]]></vod:AsihuaectRatio>
+                        <vod:FrameRate><![CDATA[25]]></vod:FrameRate>
+                        <vod:Brightness><![CDATA[]]></vod:Brightness>
+                        <vod:Contrast><![CDATA[]]></vod:Contrast>
+                        <vod:FileType><![CDATA[1]]></vod:FileType>
+                        <vod:Usage><![CDATA[1]]></vod:Usage>
+                        <vod:ServiceType><![CDATA[1]]></vod:ServiceType>
+                        <vod:MimeType><![CDATA[1]]></vod:MimeType>
+                        <vod:HDFlag><![CDATA[1]]></vod:HDFlag>
+                        <vod:GraphicsMode><![CDATA[0]]></vod:GraphicsMode>              
+                </vod:Video>
+        </adi:AcceptContentAsset>
+        <adi:AssociateContent type="Video" effectiveDate="" groupProviderID="sihua"
+                        groupAssetID="ceshiottmovie" providerID="sihua" assetID="ceshiottmovie_1"/>
+</adi:ADI2>

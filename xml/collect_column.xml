@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adi:ADI2 xmlns="http://www.cablelabs.com/VODSchema/default" xmlns:adi="http://www.cablelabs.com/VODSchema/adi" xmlns:vod="http://www.cablelabs.com/VODSchema/vod">
+  <adi:OpenGroupAsset type="VODRelease" product="VOD">
+    <vod:VODRelease providerID="sihua" providerType="2" assetID="ott1009testcolumn" updateNum="" groupAsset="Y" serialNo="2016122615360004">
+      <adi:AssetLifetime startDateTime="2016-12-26" endDateTime="2036-12-26" />
+    </vod:VODRelease>
+  </adi:OpenGroupAsset>
+  <adi:AddMetadataAsset groupProviderID="sihua" groupAssetID="ott1009testcolumn" type="Title" product="VOD">
+    <vod:Title providerID="sihua" assetID="ott1009testcolumn" updateNum="1">
+      <adi:AssetLifetime startDateTime="2016-12-26" endDateTime="2036-12-26" />
+      <vod:Keyword />
+      <vod:IsAdvertise>0</vod:IsAdvertise>
+      <vod:PlayTime></vod:PlayTime>
+      <vod:Emcee>
+        <vod:LastNameFirst />
+      </vod:Emcee>
+      <vod:StudioName />
+      <vod:MetaLanguage></vod:MetaLanguage>
+      <vod:ExternalURL />
+      <vod:Actor type="Actor">
+        <vod:LastNameFirst />
+      </vod:Actor>
+      <vod:RunTime />
+      <vod:SearchName />
+      <vod:EnglishName />
+      <vod:ExternalNo />
+      <vod:Producer>
+        <vod:LastNameFirst />
+      </vod:Producer>
+      <vod:Awards />
+      <vod:MediaFormat />
+      <vod:Director>
+        <vod:LastNameFirst />
+      </vod:Director>
+      <vod:CountryOfOrigin>0</vod:CountryOfOrigin>
+      <vod:Items>0</vod:Items>
+      <vod:SourceInfo />
+      <vod:Comments />
+      <vod:TitleFull>ottsp采集1009-1</vod:TitleFull>
+      <vod:SourceType></vod:SourceType>
+      <vod:Agent />
+      <vod:TitleBrief />
+      <vod:ShowType>Column</vod:ShowType>
+      <vod:Character />
+      <vod:Priority>10</vod:Priority>
+      <vod:Status>1</vod:Status>
+      <vod:Guest>
+        <vod:LastNameFirst />
+      </vod:Guest>
+      <vod:Theme />
+      <vod:SummaryMedium>首页</vod:SummaryMedium>
+      <vod:SummaryShort></vod:SummaryShort>
+      <vod:Language />
+      <vod:Superviser />
+      <vod:EnglishDesc />
+      <vod:Extend>
+        <vod:JointMode>1</vod:JointMode>
+      </vod:Extend>
+    </vod:Title>
+  </adi:AddMetadataAsset>
+  <adi:AddMetadataAsset groupProviderID="sihua" groupAssetID="ott1009testcolumn" type="CategoryPath" product="VOD">
+    <vod:CategoryPath providerID="sihua" assetID="ott1009testcolumn" updateNum="1">
+      <adi:AssetLifetime startDateTime="2016-12-26" endDateTime="2036-12-26" />
+      <vod:Category>喜剧片</vod:Category>
+      <vod:Classification>电影</vod:Classification>
+    </vod:CategoryPath>
+  </adi:AddMetadataAsset>
+  <adi:AddMetadataAsset groupProviderID="sihua" groupAssetID="ott1009testcolumn" type="Copyright" product="VOD">
+    <vod:Copyright providerID="sihua" assetID="ott1009testcolumn" updateNum="1">
+      <adi:AssetLifetime startDateTime="2016-12-26" endDateTime="2036-12-26" />
+      <vod:LicenseType>0</vod:LicenseType>
+      <vod:TransferAgain></vod:TransferAgain>
+      <vod:CopyType>1</vod:CopyType>
+      <vod:OriginalLicenseCompany />
+      <vod:Transfer3rd></vod:Transfer3rd>
+      <vod:CopyName />
+      <vod:PublishNo />
+      <vod:AuthorserilNo />
+      <vod:VideoLicense />
+      <vod:CopyIdea />
+      <vod:CountryNo />
+      <vod:PublicationDate></vod:PublicationDate>
+      <vod:CopyLicense />
+      <vod:CopySerilNo />
+      <vod:CopyLicenser />
+      <vod:TransferLicenseCompany />
+    </vod:Copyright>
+  </adi:AddMetadataAsset>
+  <adi:AcceptContentAsset type="Video" metadataOnly="N" fileName="ottsp采集0930-1" fileSize="139865232" mD5CheckSum="">
+    <vod:Video providerID="sihua" assetID="ott1009testcolumn_1" updateNum="1" fileName="chaoti.ts" fileSize="139865232" mD5CheckSum="" transferContentURL="ftp://caiji:caiji@10.43.240.44/collect/test/short.ts" encodingProfile="" encodingCode="">
+      <adi:AssetLifetime startDateTime="2016-12-26" endDateTime="2036-12-26" />
+      <vod:AspectRatio></vod:AspectRatio>
+      <vod:HDFlag>0</vod:HDFlag>
+      <vod:Brightness></vod:Brightness>
+      <vod:FrameHeight>576</vod:FrameHeight>
+      <vod:MimeType>55</vod:MimeType>
+      <vod:IsEdit>1</vod:IsEdit>
+      <vod:ServiceType>1</vod:ServiceType>
+      <vod:NeedDRM>1</vod:NeedDRM>
+      <vod:Usage>1</vod:Usage>
+      <vod:FrameWidth>720</vod:FrameWidth>
+      <vod:VideoCodec></vod:VideoCodec>
+      <vod:Numberofframes>0</vod:Numberofframes>
+      <vod:AudioCodec></vod:AudioCodec>
+      <vod:IsDRM>1</vod:IsDRM>
+      <vod:Duration>22</vod:Duration>
+      <vod:FileType>1</vod:FileType>
+      <vod:Contrast></vod:Contrast>
+      <vod:Bitrate>1600</vod:Bitrate>
+      <vod:FrameRate>25</vod:FrameRate>
+    </vod:Video>
+  </adi:AcceptContentAsset>
+  <adi:AssociateContent type="Video" effectiveDate="" groupProviderID="sihua" groupAssetID="ott1009testcolumn" providerID="sihua" assetID="ott1009testcolumn_1" />
+</adi:ADI2>
